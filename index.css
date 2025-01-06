@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+.navbar {
+    background-color: #dee0e2;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.navbar .logo img {
+    width: 200px;
+} 
+
+.content b{
+    color:rgb(32, 31, 31);
+    margin-right: 15px;
+
+}
+.content button{
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 10%;
+}
+
+.infocon{
+    display: flex;
+}
+
+.leftinfo{
+    color: rgb(17, 56, 255);
+    padding: 100px;
+    padding-left: 200px;
+    
+    justify-content: space-between;
+    text-align: center;
+    margin: 0%;
+
+}
+
+
+.rightinfo{
+    padding: 10px;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.leftinfo h2{
+    color: rgb(0, 0, 0);
+    
+}
+
+.leftinfo p{
+    color: rgba(0, 0, 0, 0.692);
+}
+.leftinfo button{
+    background-color: rgb(0, 98, 255);
+    color: #f3f3f3;
+    font: 17%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5%;
+    font-weight: bold;
+}
+
+.leftinfo .varify_icon{
+    display: flex;
+    align-items: center;
+    margin: 30px 0 0;
+    color: black;
+    font: 16px;
+    margin: 0px 0px 16px;
+
+}
+
+/**.leftinfo .iconname{
+    display: flex;
+    align-items: center;
+    margin: 30px 0 0;
+    color: black;
+    font: 16px;
+    margin: 0px 0px 16px;
+
+}
+
+
+
